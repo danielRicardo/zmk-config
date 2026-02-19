@@ -37,6 +37,7 @@
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 40 41 42>;
         };
 
         HRM_L: HRM_L {
@@ -49,6 +50,7 @@
             quick-tap-ms = <175>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
+            hold-trigger-key-positions = <7 12 13 21 22 23 24 25 26 27 34 35 36 37 38 39 43 44 45 8 9 10 11 12 22 23 24 25>;
         };
     };
 
@@ -57,7 +59,6 @@
 
         MAIN {
             display-name = "QWERTY";
-
             bindings = <
 &kp TAB    &kp Q                   &kp W                          &kp E              &kp R           &kp T              &none  &none  &kp Y               &kp U           &kp I               &kp O                           &kp P                      &kp BSPC
 &kp LCTRL  &HRM_L LS(LA(LCTRL)) A  &HRM_L LS(LA(LC(LEFT_GUI))) S  &HRM_L LEFT_GUI D  &HRM_L LCTRL F  &HRM_L LEFT_ALT G  &none  &none  &HRM_R RIGHT_ALT H  &HRM_R RCTRL J  &HRM_R RIGHT_GUI K  &HRM_R RS(RA(RC(RIGHT_GUI))) L  &HRM_R RS(RA(RCTRL)) SEMI  &kp SQT
