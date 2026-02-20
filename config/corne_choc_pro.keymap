@@ -59,10 +59,10 @@
         MAIN {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q                   &kp W                          &kp E              &kp R             &kp T              &none  &none  &kp Y               &kp U            &kp I               &kp O                           &kp P                      &kp BSPC
-&kp LCTRL  &HRM_L LS(LA(LCTRL)) A  &HRM_L LS(LA(LC(LEFT_GUI))) S  &HRM_L LEFT_GUI D  &HRM_L LCTRL F    &HRM_L LEFT_ALT G  &none  &none  &HRM_R RIGHT_ALT H  &HRM_R RCTRL J   &HRM_R RIGHT_GUI K  &HRM_R RS(RA(RC(RIGHT_GUI))) L  &HRM_R RS(RA(RCTRL)) SEMI  &kp SQT
-&kp LSHFT  &kp Z                   &kp X                          &kp C              &kp V             &kp B                            &kp N               &kp M            &kp COMMA           &kp DOT                         &kp FSLH                   &kp ESC
-                                                                  &TLT 3 TAB         &TLT 2 BACKSPACE  &TLT 1 SPACE                     &TLT 4 RETURN       &kp RIGHT_SHIFT  &TLT 3 APOS
+&kp TAB    &kp Q                   &kp W                          &kp E              &kp R           &kp T              &none  &none  &kp Y               &kp U           &kp I               &kp O                           &kp P                      &kp BSPC
+&kp LCTRL  &HRM_L LS(LA(LCTRL)) A  &HRM_L LS(LA(LC(LEFT_GUI))) S  &HRM_L LEFT_GUI D  &HRM_L LCTRL F  &HRM_L LEFT_ALT G  &none  &none  &HRM_R RIGHT_ALT H  &HRM_R RCTRL J  &HRM_R RIGHT_GUI K  &HRM_R RS(RA(RC(RIGHT_GUI))) L  &HRM_R RS(RA(RCTRL)) SEMI  &kp SQT
+&kp LSHFT  &kp Z                   &kp X                          &kp C              &kp V           &kp B                            &kp N               &kp M           &kp COMMA           &kp DOT                         &kp FSLH                   &kp ESC
+                                                                  &TLT 3 TAB         &TLT 1 SPACE    &TLT 2 BACKSPACE                 &kp RIGHT_SHIFT     &TLT 4 ENTER    &TLT 3 APOS
             >;
         };
 
