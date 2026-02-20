@@ -64,6 +64,13 @@
 &kp LSHFT  &kp Z                   &kp X                          &kp C              &kp V           &kp B                            &kp N               &kp M           &kp COMMA           &kp DOT                         &kp FSLH                   &kp ESC
                                                                   &TLT 3 TAB         &TLT 1 SPACE    &TLT 2 BACKSPACE                 &kp RIGHT_SHIFT     &TLT 4 RETURN   &TLT 3 APOS
             >;
+
+            label = "QWERTY";
+            sensor-bindings =
+                <&inc_dec_kp UP_ARROW DOWN_ARROW>,
+                <&inc_dec_kp HOME END>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         NUM {
@@ -103,6 +110,15 @@
 &trans  &kp F11  &kp F6  &kp F5  &kp F4   &kp CAPS        &trans  &trans  &kp LA(SPACE)  &kp LC(SPACE)  &kp LG(SPACE)  &trans  &trans  &trans
 &trans  &kp F12  &kp F3  &kp F2  &kp F1   &kp KP_NUMLOCK                  &trans         &trans         &trans         &trans  &trans  &trans
                          &trans  &kp ESC  &trans                          &trans         &trans         &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
     };
