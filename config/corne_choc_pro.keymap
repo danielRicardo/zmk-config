@@ -99,10 +99,19 @@
         FUNC {
             display-name = "FUNC";
             bindings = <
-&tog 0  &kp F10  &kp F9  &kp F8  &kp F7   &caps_word      &trans  &trans  &trans         &trans         &trans         &trans  &trans  &trans
+&tog 0  &kp F10  &kp F9  &kp F8  &kp F7   &caps_word      &trans  &trans  &trans         &trans         &trans         &trans  &trans  &to 5
 &trans  &kp F11  &kp F6  &kp F5  &kp F4   &kp CAPS        &trans  &trans  &kp LA(SPACE)  &kp LC(SPACE)  &kp LG(SPACE)  &trans  &trans  &trans
 &trans  &kp F12  &kp F3  &kp F2  &kp F1   &kp KP_NUMLOCK                  &trans         &trans         &trans         &trans  &trans  &trans
                          &trans  &kp ESC  &trans                          &trans         &trans         &trans
+            >;
+        };
+
+        GAMING {
+            bindings = <
+&kp ESC    &kp Q  &kp W  &kp E     &kp R      &kp T      &trans  &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &to 0
+&kp TAB    &kp A  &kp S  &kp D     &kp F      &kp G      &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V      &kp B                      &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
+                         &kp LALT  &kp SPACE  &kp LCTRL                  &kp N1  &kp N2  &kp N3
             >;
         };
     };
