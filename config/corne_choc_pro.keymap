@@ -117,10 +117,10 @@
         SYMBOL {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp GRAVE  &trans    &trans     &trans     &trans  &trans  &trans  &kp LBKT  &kp AMPS    &kp STAR   &kp TILDE  &kp RBKT  &trans
-&trans  &kp EQUAL  &kp PLUS  &kp UNDER  &kp MINUS  &trans  &trans  &trans  &kp LBRC  &kp DOLLAR  &kp PRCNT  &kp CARET  &kp RBRC  &trans
-&trans  &trans     &trans    &trans     &trans     &trans                  &kp PIPE  &kp EXCL    &kp AT     &kp HASH   &kp BSLH  &trans
-                             &trans     &trans     &trans                  &kp LPAR  &kp RPAR    &kp DQT
+&trans  &kp GRAVE  &trans    &kp LS(LG(S))  &kp LS(LC(LG(NUMBER_4)))  &kp LS(LG(NUMBER_4))  &trans  &trans  &kp LBKT  &kp AMPS    &kp STAR   &kp TILDE  &kp RBKT  &trans
+&trans  &kp EQUAL  &kp PLUS  &kp UNDER      &kp MINUS                 &trans                &trans  &trans  &kp LBRC  &kp DOLLAR  &kp PRCNT  &kp CARET  &kp RBRC  &trans
+&trans  &trans     &trans    &trans         &trans                    &trans                                &kp PIPE  &kp EXCL    &kp AT     &kp HASH   &kp BSLH  &trans
+                             &trans         &trans                    &trans                                &kp LPAR  &kp RPAR    &kp DQT
             >;
         };
 
