@@ -135,6 +135,7 @@
         };
 
         GAMING {
+            display-name = "GAMING";
             bindings = <
 &kp ESC    &kp Q  &kp W  &kp E     &kp R      &kp T      &trans  &trans  &kp Y   &kp U   &kp I      &kp O    &kp P     &to 0
 &kp TAB    &kp A  &kp S  &kp D     &kp F      &kp G      &trans  &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp ENTER
@@ -144,7 +145,7 @@
         };
 
         ALT {
-            display-name = "QWERTY";
+            display-name = "ALT";
             bindings = <
 &kp TAB    &kp Q                   &kp W                          &kp E              &kp R             &kp T              &none  &none  &kp Y               &kp U            &kp I               &kp O                           &kp P                      &kp BSPC
 &kp LCTRL  &HRM_L LS(LA(LCTRL)) A  &HRM_L LS(LA(LC(LEFT_GUI))) S  &HRM_L LEFT_GUI D  &HMS_L LSHIFT F   &HRM_L LEFT_ALT G  &none  &none  &HRM_R RIGHT_ALT H  &HMS_R RSHIFT J  &HRM_R RIGHT_GUI K  &HRM_R RS(RA(RC(RIGHT_GUI))) L  &HRM_R RS(RA(RCTRL)) SEMI  &kp SQT
